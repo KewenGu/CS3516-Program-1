@@ -1,0 +1,255 @@
+Sent: login FEMA
+Received: Hello FEMA!
+Sent: add 000000007 fred flintstone M 8_bedrock
+Received: Adding successful
+Sent: add 000000008 bambam flintstone F 8_bedrock
+Received: Adding successful
+Sent: add 100000009 wilma flinstone F 8_bedrock
+Received: Adding successful
+Sent: add 101010101 barny rubble M 7_bedrock
+Received: Adding successful
+Sent: add 666666666 UNK UNK F gillette_stadium
+Received: Adding successful
+Sent: list
+Received: 5
+Received: 100000009 wilma flinstone F 8_bedrock 
+Received: 000000008 bambam flintstone F 8_bedrock 
+Received: 000000007 fred flintstone M 8_bedrock 
+Received: 101010101 barny rubble M 7_bedrock 
+Received: 666666666 UNK UNK F gillette_stadium 
+Sent: quit
+Received: Closing...
+Received: 8
+Sent: login FEMA
+Received: Hello FEMA!
+Sent: add 543219876 John Smith M bourbon_street
+Received: Adding successful
+Sent: add 444444441 UNK UNK F Bourbon_streeT
+Received: Adding successful
+Sent: add 444444442 UNK UNK M worcester
+Received: Adding successful
+Sent: add 444444443 UNK UNK F worcester
+Received: Adding successful
+Sent: add 444444444 UNK UNK M Bourbon_streeT
+Received: Adding successful
+Sent: locate bourbOn_street
+Received: 3
+Received: 543219876 John Smith M bourbon_street 
+Received: 444444441 UNK UNK F Bourbon_streeT 
+Received: 444444444 UNK UNK M Bourbon_streeT 
+Sent: remove 000000008
+Received: Removed: bambam flintstone
+Sent: list f G
+Received: 2
+Received: 100000009 wilma flinstone F 8_bedrock 
+Received: 000000007 fred flintstone M 8_bedrock 
+Sent: add 555555552 john sMith M blues_alley_gutter
+Received: Adding successful
+Sent: find JOHN SMITH
+Received: 2
+Received: 543219876 John Smith M bourbon_street 
+Received: 555555552 john sMith M blues_alley_gutter 
+Sent: add 000000008 Tom B M gillette_stadiuM
+Received: Adding successful
+Sent: add 100000009 The Gronk M gillette
+Received: Entry already exists
+Sent: list B
+Received: 6
+Received: 000000008 Tom B M gillette_stadiuM 
+Received: 100000009 wilma flinstone F 8_bedrock 
+Received: 000000007 fred flintstone M 8_bedrock 
+Received: 101010101 barny rubble M 7_bedrock 
+Received: 543219876 John Smith M bourbon_street 
+Received: 555555552 john sMith M blues_alley_gutter 
+Sent: add 100000009 missing link F segfault
+Received: Entry already exists
+Sent: locate gillette_stadium
+Received: 2
+Received: 000000008 Tom B M gillette_stadiuM 
+Received: 666666666 UNK UNK F gillette_stadium 
+Sent: update 444444443 Tom Br F worcester
+Received: Updating successful
+Sent: add 888888881 UNK UNK F 8_bedrock
+Received: Adding successful
+Sent: quit
+Received: Closing...
+Received: 19
+Sent: login Query
+Received: Hello Query!
+Sent: locate Worcester
+Received: 2
+Received: 444444443 Tom Br F worcester 
+Received: 444444442 UNK UNK M worcester 
+Sent: quit
+Received: Closing...
+Received: 3
+Sent: login Query
+Received: Hello Query!
+Sent: find UNK UNK
+Received: 5
+Received: 666666666 UNK UNK F gillette_stadium 
+Received: 444444441 UNK UNK F Bourbon_streeT 
+Received: 444444442 UNK UNK M worcester 
+Received: 444444444 UNK UNK M Bourbon_streeT 
+Received: 888888881 UNK UNK F 8_bedrock 
+Sent: quit
+Received: Closing...
+Received: 3
+Sent: login FEMA
+Received: Hello FEMA!
+Sent: add 999999990 the-funk UNK F grooving-boulevard
+Received: Adding successful
+Sent: add 987654321 Tom Brady M Worcester
+Received: Adding successful
+Sent: update 100000009 The Gronk M worcester
+Received: Updating successful
+Sent: locate WORCESTER
+Received: 4
+Received: 444444443 Tom Br F worcester 
+Received: 987654321 Tom Brady M Worcester 
+Received: 100000009 The Gronk M worcester 
+Received: 444444442 UNK UNK M worcester 
+Sent: locate 8_bedROCK
+Received: 2
+Received: 000000007 fred flintstone M 8_bedrock 
+Received: 888888881 UNK UNK F 8_bedrock 
+Sent: list b G
+Received: 5
+Received: 000000008 Tom B M gillette_stadiuM 
+Received: 444444443 Tom Br F worcester 
+Received: 987654321 Tom Brady M Worcester 
+Received: 000000007 fred flintstone M 8_bedrock 
+Received: 100000009 The Gronk M worcester 
+Sent: list u
+Received: 0
+Sent: quit
+Received: Closing...
+Received: 9
+Sent: login FEMA
+Received: Hello FEMA!
+Sent: add 777777777 four Aces F winning_poker_hand
+Received: Adding successful
+Sent: add 444333444 straight flush F winning_poker_hand
+Received: Adding successful
+Sent: find tom brady
+Received: 1
+Received: 987654321 Tom Brady M Worcester 
+Sent: add 123456789 UNK UNK F worCester
+Received: Adding successful
+Sent: locate worcester
+Received: 5
+Received: 444444443 Tom Br F worcester 
+Received: 987654321 Tom Brady M Worcester 
+Received: 100000009 The Gronk M worcester 
+Received: 444444442 UNK UNK M worcester 
+Received: 123456789 UNK UNK F worCester 
+Sent: list a C
+Received: 4
+Received: 777777777 four Aces F winning_poker_hand 
+Received: 000000008 Tom B M gillette_stadiuM 
+Received: 444444443 Tom Br F worcester 
+Received: 987654321 Tom Brady M Worcester 
+Sent: remove 333222111
+Received: Entry does not exist
+Sent: quit
+Received: Closing...
+Received: 9
+Sent: login Query
+Received: Hello Query!
+Sent: find TOM B
+Received: 1
+Received: 000000008 Tom B M gillette_stadiuM 
+Sent: find UNK UNK
+Received: 6
+Received: 666666666 UNK UNK F gillette_stadium 
+Received: 444444441 UNK UNK F Bourbon_streeT 
+Received: 444444442 UNK UNK M worcester 
+Received: 444444444 UNK UNK M Bourbon_streeT 
+Received: 888888881 UNK UNK F 8_bedrock 
+Received: 123456789 UNK UNK F worCester 
+Sent: list
+Received: 17
+Received: 777777777 four Aces F winning_poker_hand 
+Received: 000000008 Tom B M gillette_stadiuM 
+Received: 444444443 Tom Br F worcester 
+Received: 987654321 Tom Brady M Worcester 
+Received: 000000007 fred flintstone M 8_bedrock 
+Received: 444333444 straight flush F winning_poker_hand 
+Received: 100000009 The Gronk M worcester 
+Received: 101010101 barny rubble M 7_bedrock 
+Received: 555555552 john sMith M blues_alley_gutter 
+Received: 543219876 John Smith M bourbon_street 
+Received: 123456789 UNK UNK F worCester 
+Received: 999999990 the-funk UNK F grooving-boulevard 
+Received: 888888881 UNK UNK F 8_bedrock 
+Received: 444444444 UNK UNK M Bourbon_streeT 
+Received: 444444442 UNK UNK M worcester 
+Received: 444444441 UNK UNK F Bourbon_streeT 
+Received: 666666666 UNK UNK F gillette_stadium 
+Sent: locate Bourbon
+Received: 0
+Sent: list
+Received: 17
+Received: 777777777 four Aces F winning_poker_hand 
+Received: 000000008 Tom B M gillette_stadiuM 
+Received: 444444443 Tom Br F worcester 
+Received: 987654321 Tom Brady M Worcester 
+Received: 000000007 fred flintstone M 8_bedrock 
+Received: 444333444 straight flush F winning_poker_hand 
+Received: 100000009 The Gronk M worcester 
+Received: 101010101 barny rubble M 7_bedrock 
+Received: 555555552 john sMith M blues_alley_gutter 
+Received: 543219876 John Smith M bourbon_street 
+Received: 123456789 UNK UNK F worCester 
+Received: 999999990 the-funk UNK F grooving-boulevard 
+Received: 888888881 UNK UNK F 8_bedrock 
+Received: 444444444 UNK UNK M Bourbon_streeT 
+Received: 444444442 UNK UNK M worcester 
+Received: 444444441 UNK UNK F Bourbon_streeT 
+Received: 666666666 UNK UNK F gillette_stadium 
+Sent: quit
+Received: Closing...
+Received: 7
+Sent: login FEMA
+Received: Hello FEMA!
+Sent: add 999999994 pairof aces F losing_Hand
+Received: Adding successful
+Sent: list a B
+Received: 5
+Received: 777777777 four Aces F winning_poker_hand 
+Received: 999999994 pairof aces F losing_Hand 
+Received: 000000008 Tom B M gillette_stadiuM 
+Received: 444444443 Tom Br F worcester 
+Received: 987654321 Tom Brady M Worcester 
+Sent: quit
+Received: Closing...
+Received: 4
+Sent: login Query
+Received: Hello Query!
+Sent: find tom b
+Received: 1
+Received: 000000008 Tom B M gillette_stadiuM 
+Sent: list
+Received: 18
+Received: 999999994 pairof aces F losing_Hand 
+Received: 777777777 four Aces F winning_poker_hand 
+Received: 000000008 Tom B M gillette_stadiuM 
+Received: 444444443 Tom Br F worcester 
+Received: 987654321 Tom Brady M Worcester 
+Received: 000000007 fred flintstone M 8_bedrock 
+Received: 444333444 straight flush F winning_poker_hand 
+Received: 100000009 The Gronk M worcester 
+Received: 101010101 barny rubble M 7_bedrock 
+Received: 555555552 john sMith M blues_alley_gutter 
+Received: 543219876 John Smith M bourbon_street 
+Received: 123456789 UNK UNK F worCester 
+Received: 999999990 the-funk UNK F grooving-boulevard 
+Received: 888888881 UNK UNK F 8_bedrock 
+Received: 444444444 UNK UNK M Bourbon_streeT 
+Received: 444444442 UNK UNK M worcester 
+Received: 444444441 UNK UNK F Bourbon_streeT 
+Received: 666666666 UNK UNK F gillette_stadium 
+Sent: quit EOF
+Received: Closing...
+Received: 4
+Received: 179
