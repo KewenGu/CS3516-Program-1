@@ -28,13 +28,13 @@ Note:
 	1. The wellknown port number used by both server and client is 4074.
 	2. if the <MEClient.txt> is not specified, the program will get input from the standard input.
 		Valid inputs to the MEClient file are:
-			1) login <user_name>
-			2) add <id_number> <first_name> <last_name> <gender> <location>
-			3) update <id_number> <first_name> <last_name> <gender> <location>
-			4) remove <id_number>
-			5) find <first_name> <last_name>
-			6) list <start(optional)> <finish(optional)>
-			7) location <location> 
+		1) login <user_name>
+		2) add <id_number> <first_name> <last_name> <gender> <location>
+		3) update <id_number> <first_name> <last_name> <gender> <location>
+		4) remove <id_number>
+		5) find <first_name> <last_name>
+		6) list <start(optional)> <finish(optional)>
+		7) location <location> 
 	
 
 
