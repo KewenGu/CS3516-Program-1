@@ -1,18 +1,21 @@
 Kewen Gu
+
 Program 1
+
 CS 3516
+
 Sep 11, 2015
 
-----------------------------------------
-Introduction:
 
+Introduction:
+-------------
 	This assignment is about writing a tcp client and server program which can ask user to input command include 'login', 'add', 'update', 'remove', 'find', 'list', 'locate' and 'quit'. 
 	The client accepts the commands from command line or the specified file, then runs a set of test, sends the command to the server, waits for the response from the server and prints out the correct implementation to the standard output. The client will write all the communication data between client and server into a log file called MEClient.log.
 	The server handle each command upon receiving the command from the client, and maintained a database consists of body entries. When user attempted to quit from the client, the server writes the database to a file called MEDatabase.txt.
 
-----------------------------------------
-How to run:
 
+How to run:
+-------------
 	To make and compile all the files, enter:
 		make
 
@@ -22,9 +25,9 @@ How to run:
 	To run the MEServer program, enter:
 		./MEServer
 
-----------------------------------------
-Note: 
 
+Note: 
+-------------
 	1. The "wellknown port number" used by both server and client is 4074.
 	2. if the <MEClient.txt> is not specified, the program will get input from the standard input.
 		Valid inputs to MEClient are:
