@@ -31,7 +31,7 @@ How to run:
 Note: 
 -------------
 	1. The "wellknown port number" used by both server and client is 4074.
-	2. if the <MEClient.txt> is not specified, the program will get input from the standard input.
+	2. if the <MEClient.txt> is not specified, the program will get input from the command line prompt.
 		Valid inputs to MEClient are:
 		1) login <user_name>
 		2) add <id_number> <first_name> <last_name> <gender> <location>
